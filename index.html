@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXTREMELY DIFFICULT Note App</title>
+    <style>
+        body { font-family: 'Helvetica', 'Arial', sans-serif; color: #3c3c3c; max-width: 600px; margin: 20px auto; padding: 20px; }
+        h3 { color: #6f6f6f;}
+        button { float: right; padding: 0.5em; padding-left: 1em; padding-right: 1em; border-radius: 5px; border: none; outline: none; background-color: #bebebe; box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff; transition: all 0.3s; cursor: pointer;}
+        button:hover { transform: scale(1.05); color: #ffffff; background-color: #3c3c3c; }
+        button:active { transform: scale(0.95); }
+        footer{ color: #6f6f6f; text-align: center; margin: 2em; }
+        #addNote { margin: 1em; }
+        #newNote { font-size: 14px; font-style: italic; width: 50%; padding: 1em; border: none; outline: none; border-radius: 5px; background: none; color: #1a1a1a; }
+        .note { overflow: hidden; margin-top: 0.5em; padding: 1em; border-radius: 5px; border: none; outline: none; box-shadow: 5px 5px 10px #bebebe, -5px -5px 10px #ffffff; transition: all 0.3s; }
+        .note:hover { transform: scale(1.05); margin-bottom: 1em;}
+    </style>
+</head>
+<body>
+    <h1>My <em>EXTREMELY DIFFICULT</em> Note App</h1>
+    <h3>This is <em>very</em> <mark>confusing</mark> <em>to use.</em></h3>
+    <input type="text" autocomplete="off" id="newNote" placeholder="Type your note here...">
+    <button id="addNote" onclick="addNote()">Add Note</button>
+    <hr>
+    <div id="notesList"></div>
+    <!-- Link to our JavaScript file -->
+    <script src="script.js"></script>
+    <hr>
+    <footer>hi i made ts app pls hire me</footer>
+</body>
+</html>
