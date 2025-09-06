@@ -1,2 +1,2 @@
 # difficult-notes-app
-An Extremely Difficult Notes App
+An Extremely Difficult Note App
